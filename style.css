@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: transparent;
+}
+.col-12{
+    width: 99%;
+}
+    body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "BlenderPro-Bold";
+    src: url(font/BlenderPro-Bold.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: "BlenderPro-Heavy";
+    src: url(font/BlenderPro-Heavy.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: "BlenderPro-Medium";
+    src: url(font/BlenderPro-Medium.woff) format('woff');
+
+}
+
+.container {
+    max-width: 768px;
+}
+
+.header-first {
+    width: 100%;
+    margin: 0;
+}
+
+
+.nav-head-text {
+    text-transform: uppercase;
+    font-size: 17.77776px;
+    font-weight: 600;
+}
+
+.header-img-1 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.hf-hide {
+    display: none;
+}
+
+.ktm-logo-header {
+
+    height: 73px;
+}
+
+.header-center11 {
+    position: absolute;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    z-index: 0;
+}
+
+.header-center-1 {
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+
+
+}
+
+.header-center-2 {
+    width: fit-content;
+    margin: auto;
+}
+
+.h-c-2 {
+    margin-bottom: 0.25em;
+    color: inherit;
+    text-transform: uppercase;
+    font: 700 18px/1.22 BlenderPro-Medium;
+}
+
+.header-footer-list {
+    float: right;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header-main-top {
+z-index: 1;
+    position: absolute;
+}
+
+.header-footer {
+    margin-left: auto;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.header-right-logo {
+    width: 5em;
+    height: 5rem;
+    position: relative;
+}
+
+.header-top-button {
+    height: 75px;
+
+    width: fit-content;
+    border: 1px solid;
+    border-color: #f60;
+    padding: 22px 50px;
+    background-color: #f60;
+    margin:auto;
+
+
+
+}
+
+.htb-1 {
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+
+.header-top-button1 {
+    height: 75px;
+
+    width: fit-content;
+    border: 1px solid;
+    border-color: #f60;
+    padding: 22px 50px;
+    background-color: #f60;
+    margin: auto;
+    margin-top: 1.2em;
+}
+
+.header-top-button:hover {
+    background: none;
+    color: #f60;
+
+}
+
+.header-top-button1:hover {
+    background: none;
+    color: #f60;
+
+}
+
+.h-t-button {
+   
+    width: fit-content;
+    margin: auto;
+}
+
+.main-head-text {
+    text-align: center;
+    font: 800 30px/1.06 BlenderPro-Bold;
+
+
+}
+
+.main-top-text {
+    margin-bottom: 40px;
+
+}
+
+.main-top-button {
+
+    margin-bottom: 40px;
+
+}
+
+.mn-tp-bnr {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.mn-tp-bnr1 {
+
+    font-size: 18px;
+}
+
+.main-contant-footer-text {
+    font: 700 18px/1.22 BlenderPro-Medium;
+    padding: 0;
+    margin: 30px 0 4px 0;
+    text-align: center;
+}
+
+.main-contant-footer-text1 {
+
+    font: 800 30px/1 BlenderPro-Medium;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.hr-bnr-top {
+    text-transform: uppercase;
+    height: 56px;
+    padding: 14px 30px;
+    line-height: 26px;
+    border-radius: inherit;
+}
+
+.hr-bnr-clr {
+    background: black;
+    color: white;
+}
+
+
+
+.hr-bnr-clr:hover {
+    color: black;
+    border: 1px solid black;
+
+}
+
+
+.img-header {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.i-h-time {
+    margin: 24.750px 0 13.320px 0;
+
+
+
+    font: 700 16px/1.88 BlenderPro-Medium;
+}
+
+.i-h-bottom {
+    margin-bottom: 72px;
+}
+
+.m-h-header {
+    margin: 0 0 22.500px 0;
+
+    font: 800 20px/1.06 BlenderPro-bold;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.m-h-header-text-color:hover {
+    color: #ff4000;
+}
+
+.m-h-contant {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.main-footer-012 {
+   
+    padding: 0;
+    margin: 0 0 60px 0;
+}
+
+.main-footer-img1 {
+    width: 100%;
+    height: 292.5px;
+    object-fit: cover;
+}
+
+.main-footer-img {
+    padding: 0;
+
+
+}
+
+.main-footer01 {
+    width: 100%;
+    height: 585px;
+    justify-content: center;
+    display: flex;
+}
+
+.m-f-012 {
+    margin: auto;
+}
+
+.main-footer02 {
+    width: 100%;
+    height: 585px;
+}
+
+
+
+
+
+
+.footer-head {
+    padding: 88px 0 0 0;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    font: 300 18px/1.625 trade-gothic-condensed;
+
+}
+
+
+
+
+.footer-header {
+    font: 700 25px/1 BlenderPro-Medium;
+    text-transform: uppercase;
+
+}
+
+
+
+.footer-header-mobile {
+    display: flex;
+}
+
+.fhm {
+    margin-left: auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit
+}
+
+
+
+.footer-link:hover {
+    color: red;
+
+}
+
+.footer-end-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin: auto;
+    width: fit-content;
+
+}
+
+.brn-mf {
+    color: #ff4000;
+    border: 1px solid #ff4000;
+
+}
+
+.brn-mf:hover {
+
+    background-color: #ff4000;
+    ;
+    background: #ff4000;
+    border: 1px solid #ff4000;
+    color: white;
+}
+
+.brn-main-top {
+    width: fit-content;
+    margin: auto;
+}
+
+.m-f-013 {
+
+    font: 800 18px/1 BlenderPro-Medium;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main-footer-end {
+    padding: 38px;
+    text-align: center;
+    font-weight: 300;
+    font-size: .75em;
+    color: #bdbdbd;
+}
+
+.f-e-l {
+    padding: 25px 5px 0 0;
+}
+
+.f-e-l-img {
+    height: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.footer-ended {
+    padding: 40px 0;
+    margin: auto;
+    width: fit-content;
+
+}
+
+.footer-ended-favicon {
+    margin-left: 13px;
+    fill: white;
+    width: 20px;
+    width: 20px;
+}
+
+.fed-text {
+    font: 300 12px trade-gothic-condensed;
+    color: #bdbdbd;
+}
+
+.fed-text1 {
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f60;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: BlenderPro-Medium;
+    width: fit-content;
+    margin: auto;
+}
+
+.footer-head-mobile {
+    padding: 68px 48px 40px;
+}
+
+.footer-head-01 {
+
+    text-align: center;
+}
+
+.footer.head {
+    martgin-bottom: 30px;
+}
+
+.h-c-3 {
+    font: 800 40px/1 BlenderPro-Medium;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.h-c-4{
+    margin: auto;
+    width: fit-content;
+}
+
+.hfl-favicon{
+    display: none;
+}
+
+.hfl-favicon1{
+    display: inline;
+}
+
+.insta-btn{
+    padding: 1.35em 2.778em 1.05em;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: white;
+    fill: white;
+}
+
+.insta-btn:hover{
+    border-color: #f60;
+    color: #f60;
+    fill: #f60;
+}
+
+
+
+@media (min-width:768px) {
+
+    .hfl-favicon1{
+        display: none
+    }
+    .hfl-favicon{
+        display: inline;
+    }
+
+    .h-c-3 {
+        font: 800 85px/1 BlenderPro-Medium;
+    }
+    .container {
+        max-width: 992px;
+    }
+
+    .main-head-text {
+
+        font: 800 70px/1 BlenderPro-Medium;
+
+
+
+    }
+
+    .main-top-text {
+        margin-bottom: 60px;
+
+    }
+
+    .main-top-button {
+
+        margin-bottom: 60px;
+
+    }
+
+    .main-contant-footer-text {
+        font: 700 18px/1.08 BlenderPro-Medium;
+        text-align: left;
+        margin-bottom: 4.5px;
+    }
+
+    .main-contant-footer-text1 {
+
+        text-align: left;
+        font: 800 30px/1 BlenderPro-Medium;
+
+
+    }
+
+    .m-f-012-text {
+        display: flex;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .m-f-013 {
+
+
+        font: 700 20.8px/1 BlenderPro-Medium;
+        margin-right: 16px;
+    }
+
+    .ktm-logo-header {
+
+        height: 115px;
+    }
+
+    .h-c-2 {
+        font: 700 24px/1.08 BlenderPro-Medium;
+    }
+
+    .h-t-button{
+        display: flex;
+    }
+
+    .header-top-button{
+        margin-right: 28px;
+    }
+
+    .header-top-button1{
+        margin-left: 14.400px;
+        margin-top: 0;
+    }
+}
+
+
+@media(min-width:992px) {
+
+    .hf-hide {
+        display: none;
+    }
+
+    .nav-head-text {
+
+        font-size: 9.77776px;
+        font-weight: 800;
+    }
+
+    .ktm-logo-header {
+
+        height: 145px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .main-head-text {
+
+        font: 800 70px/1 BlenderPro-Heavy;
+
+
+        margin: 0 0 28.411px 0;
+
+    }
+
+    .hf-hide {
+        display: contents;
+    }
+
+    .mtb {
+        text-align: right;
+        margin-right: 10%;
+
+    }
+
+    .mtb1 {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .main-contant-footer-text {
+
+        margin-top: 25px;
+
+
+
+    }
+
+    .m-h-header {
+
+        font: 800 32px/1 BlenderPro-Heavy;
+    }
+
+
+    .footer-head-01 {
+
+        text-align: inherit;
+    }
+
+
+    .footer.head {
+        martgin-bottom: 0;
+    }
+
+    .footer-end-list {
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .footer-ended{
+        display: flex;
+        width: unset;
+    }
+
+    .fed-text1{
+        margin-left: auto;
+        margin-right: unset;
+        margin-top: unset;
+        margin-bottom: unset;
+        
+    }
+
+}
+
+
+@media(min-width:1200px) {
+
+    .nav-head-text {
+        font-size: 13.77776px;
+        font-weight: 800;
+
+    }
+
+
+    .container {
+        max-width: 1640px;
+    }
+
+    .main-top-text {
+        margin-bottom: 80px;
+
+    }
+
+    .main-top-button {
+
+        margin-bottom: 80px;
+
+    }
+
+}
+
+@media(min-width:1440px) {
+
+    .nav-head-text {
+        font-size: 17.77776px;
+        font-weight: 800;
+
+    }
+
+
+
+
+}
